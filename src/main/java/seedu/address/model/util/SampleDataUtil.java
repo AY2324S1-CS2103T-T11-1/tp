@@ -14,13 +14,10 @@ import seedu.address.model.person.Phone;
 import seedu.address.model.person.Remark;
 import seedu.address.model.tag.Tag;
 
-
-
 /**
  * Contains utility methods for populating {@code AddressBook} with sample data.
  */
 public class SampleDataUtil {
-
     public static final Remark EMPTY_REMARK = new Remark("");
     public static Person[] getSamplePersons() {
         return new Person[] {
