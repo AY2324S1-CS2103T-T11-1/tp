@@ -45,7 +45,7 @@ public class EditCommand extends Command {
             + "[" + PREFIX_PHONE + "PHONE] "
             + "[" + PREFIX_EMAIL + "EMAIL] "
             + "[" + PREFIX_ADDRESS + "ADDRESS] "
-            + "[" + PREFIX_TAG + "TAG]...\n"
+            + "[" + PREFIX_TAG + "TAG]... "
             + "[" + PREFIX_REMARK + "REMARK]\n"
             + "Example: " + COMMAND_WORD + " 1 "
             + PREFIX_PHONE + "91234567 "
@@ -102,10 +102,10 @@ public class EditCommand extends Command {
         Phone updatedPhone = editPersonDescriptor.getPhone().orElse(personToEdit.getPhone());
         Email updatedEmail = editPersonDescriptor.getEmail().orElse(personToEdit.getEmail());
         Address updatedAddress = editPersonDescriptor.getAddress().orElse(personToEdit.getAddress());
-        Remark updatedRemark = personToEdit.getRemark();
         Set<Tag> updatedTags = editPersonDescriptor.getTags().orElse(personToEdit.getTags());
+        Remark updatedRemark = personToEdit.getRemark();
 
-        return new Person(updatedName, updatedPhone, updatedEmail, updatedAddress, updatedRemark, updatedTags);
+        return new Person(updatedName, updatedPhone, updatedEmail, updatedAddress, updatedTags, updatedRemark);
     }
 
     @Override
@@ -141,8 +141,8 @@ public class EditCommand extends Command {
         private Phone phone;
         private Email email;
         private Address address;
-        private Remark remark;
         private Set<Tag> tags;
+        private Remark remark;
 
         public EditPersonDescriptor() {}
 
@@ -215,14 +215,14 @@ public class EditCommand extends Command {
             return (tags != null) ? Optional.of(Collections.unmodifiableSet(tags)) : Optional.empty();
         }
 
-        private void setRemark(Remark remark) {
+        public void setRemark(Remark remark) {
             this.remark = remark;
         }
 
-
-        public Optional<Object> getRemark() {
+        public Optional<Remark> getRemark() {
             return Optional.ofNullable(remark);
         }
+
 
         @Override
         public boolean equals(Object other) {
@@ -255,6 +255,5 @@ public class EditCommand extends Command {
                     .add("remark", remark)
                     .toString();
         }
-
     }
 }

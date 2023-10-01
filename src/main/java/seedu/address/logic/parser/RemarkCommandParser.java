@@ -11,14 +11,13 @@ import seedu.address.logic.parser.exceptions.ParseException;
 import seedu.address.model.person.Remark;
 
 /**
- * Parses input arguments and creates a new RemarkCommand object
+ * Parses input arguments and creates a new {@code RemarkCommand} object
  */
-public class RemarkCommandParser implements Parser<RemarkCommand> {
+public class RemarkCommandParser implements Parser {
+
     /**
-     * Parses the given {@code String} of arguments in the context of the RemarkCommand
-     * and returns an RemarkCommand object for execution.
-     * @param args String remark
-     * @return RemarkCommand
+     * Parses the given {@code String} of arguments in the context of the {@code RemarkCommand}
+     * and returns a {@code RemarkCommand} object for execution.
      * @throws ParseException if the user input does not conform the expected format
      */
     public RemarkCommand parse(String args) throws ParseException {
@@ -34,9 +33,8 @@ public class RemarkCommandParser implements Parser<RemarkCommand> {
                     RemarkCommand.MESSAGE_USAGE), ive);
         }
 
-        String remark = argMultimap.getValue(PREFIX_REMARK).orElse("");
+        Remark remark = new Remark(argMultimap.getValue(PREFIX_REMARK).orElse(""));
 
-        return new RemarkCommand(index, new Remark(remark));
+        return new RemarkCommand(index, remark);
     }
-
 }

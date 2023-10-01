@@ -10,8 +10,9 @@ public class Remark {
     public final String value;
 
     /**
-     * Remark object
-     * @param remark String description of remark
+     * Constructs an {@code Remark}.
+     *
+     * @param remark A valid Remark.
      */
     public Remark(String remark) {
         requireNonNull(remark);
@@ -25,14 +26,21 @@ public class Remark {
 
     @Override
     public boolean equals(Object other) {
-        return other == this // short circuit if same object
-                || (other instanceof Remark // instanceof handles nulls
-                && value.equals(((Remark) other).value)); // state check
+        if (other == this) {
+            return true;
+        }
+
+        // instanceof handles nulls
+        if (!(other instanceof Remark)) {
+            return false;
+        }
+
+        Remark otherRemark = (Remark) other;
+        return value.equals(otherRemark.value);
     }
 
     @Override
     public int hashCode() {
         return value.hashCode();
     }
-
 }
