@@ -152,6 +152,14 @@
       "headingKeywords": {}
     },
     {
+      "src": "team/lwz19.md",
+      "title": "Liang Wenzhong's Project Portfolio Page",
+      "headings": {
+        "project-classmanager-2023": "Project: ClassManager-2023"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "tutorials/AddRemark.md",
       "title": "Tutorial: Adding a command",
       "headings": {
