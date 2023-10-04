@@ -236,7 +236,7 @@ with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to list students")
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The list is empty.")]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("3a. The given matriculation number is invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3a1. ClassManager shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The list is empty.")]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("3a. The given student number is invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3a1. ClassManager shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: Tag a student with a label")])])}
@@ -251,7 +251,7 @@ with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to list students")
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The list is empty.")]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("3a. The given matriculation number is invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3a1. ClassManager shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])]),_v(" "),_c('li',[_c('p',[_v("3b. The student already has the given tag.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3b1. ClassManager shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The list is empty.")]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("3a. The given student number is invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3a1. ClassManager shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])]),_v(" "),_c('li',[_c('p',[_v("3b. The student already has the given tag.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3b1. ClassManager shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: Tag a student with a label")])])}
@@ -266,7 +266,7 @@ with(this){return _c('ol',[_c('li',[_c('p',[_v("User requests to list students")
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The list is empty.")]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("3a. The given matriculation number is invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3a1. ClassManager shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])]),_v(" "),_c('li',[_c('p',[_v("3b. The student already has the given tag.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3b1. ClassManager shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The list is empty.")]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("3a. The given student number is invalid.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3a1. ClassManager shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])]),_v(" "),_c('li',[_c('p',[_v("3b. The student already has the given tag.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3b1. ClassManager shows an error message.")]),_v(" "),_c('p',[_v("Use case resumes at step 2.")])])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: Loading a saved file")])])}
@@ -296,7 +296,7 @@ with(this){return _c('ol',[_c('li',[_v("Should work on any "),_c('em',[_v("mains
 with(this){return _c('h3',{attrs:{"id":"glossary"}},[_v("Glossary"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#glossary","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('strong',[_v("Mainstream OS")]),_v(": Windows, Linux, Unix, OS-X")]),_v(" "),_c('li',[_c('strong',[_v("Student Number")]),_v(": Matriculation number of NUS student")]),_v(" "),_c('li',[_c('strong',[_v("Email")]),_v(": NUS email account ("),_c('a',{attrs:{"href":"mailto:...@u.nus.edu"}},[_v("...@u.nus.edu")]),_v(")")]),_v(" "),_c('li',[_c('strong',[_v("CLI")]),_v(": Command Line Interface")]),_v(" "),_c('li',[_c('strong',[_v("GUI")]),_v(" Graphic User Interface")])])}
+with(this){return _c('ul',[_c('li',[_c('strong',[_v("Mainstream OS")]),_v(": Windows, Linux, Unix, OS-X")]),_v(" "),_c('li',[_c('strong',[_v("Student Number")]),_v(": Matriculation number of NUS student")]),_v(" "),_c('li',[_c('strong',[_v("Email")]),_v(": NUS email address ("),_c('a',{attrs:{"href":"mailto:eXXXXXXX@u.nus.edu"}},[_v("eXXXXXXX@u.nus.edu")]),_v(")")]),_v(" "),_c('li',[_c('strong',[_v("CLI")]),_v(": Command Line Interface")]),_v(" "),_c('li',[_c('strong',[_v("GUI")]),_v(": Graphical User Interface")])])}
 },function anonymous(
 ) {
 with(this){return _c('h2',{attrs:{"id":"appendix-instructions-for-manual-testing"}},[_c('strong',[_v("Appendix: Instructions for manual testing")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#appendix-instructions-for-manual-testing","onclick":"event.stopPropagation()"}})])}
@@ -320,6 +320,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('em',[_v("{explain how to simulate a missing/corrupted file, and the expected behavior}")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Wed, 4 Oct 2023, 14:08:27 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Wed, 4 Oct 2023, 18:13:40 GMT+8]")])])])}
 }];
   
