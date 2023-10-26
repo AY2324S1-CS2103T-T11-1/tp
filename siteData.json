@@ -122,6 +122,8 @@
         "adding-comment-to-a-student-comment": "Adding comment to a student : comment",
         "lookup-students-lookup": "Lookup students : lookup",
         "marking-tutorial-attendance-for-a-student-mark": "Marking tutorial attendance for a student : mark",
+        "setting-assignment-grade-for-a-student-set-grade": "Setting assignment grade for a student : set-grade",
+        "record-class-participation-for-a-student-record-part": "Record class participation for a student : record-part",
         "view-a-student-s-class-details-view": "View a student's class details: view",
         "deleting-a-student-delete": "Deleting a student : delete",
         "clearing-all-entries-clear": "Clearing all entries : clear",
