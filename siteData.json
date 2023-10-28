@@ -123,6 +123,7 @@
         "lookup-students-lookup": "Lookup students : lookup",
         "configuring-class-manager-config": "Configuring Class Manager: config",
         "marking-tutorial-attendance-for-a-student-mark": "Marking tutorial attendance for a student : mark",
+        "marking-tutorial-attendance-for-all-students-displayed-markall": "Marking tutorial attendance for all students displayed : markall",
         "setting-assignment-grade-for-a-student-set-grade": "Setting assignment grade for a student : set-grade",
         "record-class-participation-for-a-student-record-part": "Record class participation for a student : record-part",
         "view-a-student-s-class-details-view": "View a student's class details: view",
