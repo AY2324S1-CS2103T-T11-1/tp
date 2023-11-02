@@ -71,7 +71,7 @@ with(this){return _c('h3',{attrs:{"id":"adding-a-student-add"}},[_v("Adding a st
 with(this){return _c('p',[_v("Format: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add n/NAME p/PHONE e/EMAIL s/STUDENT_NUMBER c/CLASS_NUMBER [t/TAG]…​")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('strong',[_v("ALL")]),_v(" the fields must be provided.")]),_v(" "),_c('li',[_v("The NAME field is case-sensitive.")]),_v(" "),_c('li',[_v("STUDENT NUMBER needs to be unique")]),_v(" "),_c('li',[_v("The class details of a student will be automatically populated to be 0 for all fields during the creation of a student.")]),_v(" "),_c('li',[_v("Comment for a student can only be added after the student is instantiated.")])])}
+with(this){return _c('ul',[_c('li',[_c('strong',[_v("ALL")]),_v(" the fields must be provided.")]),_v(" "),_c('li',[_v("The NAME field is case-sensitive.")]),_v(" "),_c('li',[_v("STUDENT NUMBER needs to be unique, and must not be blank.")]),_v(" "),_c('li',[_v("The class details of a student will be automatically populated to be 0 for all fields during the creation of a student.")]),_v(" "),_c('li',[_v("Comment for a student can only be added after the student is instantiated.")])])}
 },function anonymous(
 ) {
 with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add n/John Doe p/98765432 e/johnd@example.com s/A0245234A c/T11 t/friends t/owesMoney")])]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add n/John Doe p/98765432 e/johnd@example.com s/A0245234A c/T11")])])])}
@@ -113,10 +113,10 @@ with(this){return _c('h3',{attrs:{"id":"adding-comment-to-a-student-comment"}},[
 with(this){return _c('p',[_v("Format: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("comment s/STUDENT_NUMBER c/COMMENT")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("The STUDENT NUMBER must be valid and exist.")]),_v(" "),_c('li',[_v("The COMMENT must be a valid string.")]),_v(" "),_c('li',[_v("Comment can only be performed after the student is created.")]),_v(" "),_c('li',[_v("Edit commands will not impact the comment tagged to the student.")])])}
+with(this){return _c('ul',[_c('li',[_v("The STUDENT_NUMBER must be valid and exist.")]),_v(" "),_c('li',[_v("The COMMENT must be a valid string.")]),_v(" "),_c('li',[_v("Comment can only be performed after the student is created.")]),_v(" "),_c('li',[_v("Edit commands will not impact the comment tagged to the student.")]),_v(" "),_c('li',[_v("Comment can be deleted by using an empty string as the comment.")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("comment s/A0249112A c/This student is very hardworking.")])]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("comment s/A0249112A c/This student is very hardworking and smart.")])])])}
+with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("comment s/A0249112A c/This student is very hardworking.")])]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("comment s/A0249112A c/This student is very hardworking and smart.")])]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("comment s/A0249112A c/")]),_v(" ("),_c('em',[_v("This deletes the comment")]),_v(")")])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"lookup-students-lookup"}},[_v("Lookup students : "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("lookup")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#lookup-students-lookup","onclick":"event.stopPropagation()"}})])}
@@ -362,6 +362,6 @@ with(this){return _c('h2',{attrs:{"id":"glossary"}},[_v("Glossary"),_c('a',{stat
 with(this){return _c('ul',[_c('li',[_c('strong',[_v("cd")]),_v(": Change directory command in terminal/command line. cd takes the name of the folder you want to navigate to as an argument. The full command is cd "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("your-directory")]),_v(".")]),_v(" "),_c('li',[_c('strong',[_v("Student Number")]),_v(": Matriculation number of NUS student. It must begin with capital A, followed by any number of alphanumeric characters. It must not be blank.")]),_v(" "),_c('li',[_c('strong',[_v("Email")]),_v(": Any valid email address, such as NUS email address ("),_c('a',{attrs:{"href":"mailto:eXXXXXXX@u.nus.edu"}},[_v("eXXXXXXX@u.nus.edu")]),_v(").")]),_v(" "),_c('li',[_c('strong',[_v("CLI")]),_v(": Command Line Interface.")]),_v(" "),_c('li',[_c('strong',[_v("GUI")]),_v(": Graphical User Interface.")]),_v(" "),_c('li',[_c('strong',[_v("JSON")]),_v(": JavaScript Object Notation, a lightweight data-interchange format.")]),_v(" "),_c('li',[_c('strong',[_v("JAR")]),_v(": Java Archive, a package file format typically used to aggregate many Java class files and associated metadata and resources (text, images, etc.) into one file to distribute application software or libraries on the Java platform.")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Thu, 2 Nov 2023, 16:51:32 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Thu, 2 Nov 2023, 17:24:08 GMT+8]")])])])}
 }];
   
