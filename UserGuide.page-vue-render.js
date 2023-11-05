@@ -215,7 +215,7 @@ with(this){return _c('h3',{attrs:{"id":"view-a-student-s-class-details-view"}},[
 with(this){return _c('p',[_v("Format: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("view s/STUDENT_NUMBER")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("The STUDENT_NUMBER must be valid e.g "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("T*")]),_v(".")]),_v(" "),_c('li',[_v("The STUDENT_NUMBER must belong to a student in Class Manager.")])])}
+with(this){return _c('ul',[_c('li',[_v("The STUDENT_NUMBER must be valid.")]),_v(" "),_c('li',[_v("The STUDENT_NUMBER must belong to a student in Class Manager.")])])}
 },function anonymous(
 ) {
 with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("view s/A0245234A")])])])}
@@ -377,6 +377,6 @@ with(this){return _c('h2',{attrs:{"id":"glossary"}},[_v("Glossary"),_c('a',{stat
 with(this){return _c('ul',[_c('li',[_c('strong',[_v("cd")]),_v(": Change directory command in terminal/command line. cd takes the name of the folder you want to navigate to as an argument. The full command is cd "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("your-directory")]),_v(".")]),_v(" "),_c('li',[_c('strong',[_v("Student Number")]),_v(": Matriculation number of NUS student. In Class Manager, it must begin with the capital 'A', followed by 1 or more digits, and end with a single alphabetical character. Student Number must not be blank as well.")]),_v(" "),_c('li',[_c('strong',[_v("Email")]),_v(": Any valid electronic mail address, such as NUS email address ("),_c('a',{attrs:{"href":"mailto:eXXXXXXX@u.nus.edu"}},[_v("eXXXXXXX@u.nus.edu")]),_v(").")]),_v(" "),_c('li',[_c('strong',[_v("CLI")]),_v(": Command Line Interface.")]),_v(" "),_c('li',[_c('strong',[_v("GUI")]),_v(": Graphical User Interface.")]),_v(" "),_c('li',[_c('strong',[_v("JSON")]),_v(": JavaScript Object Notation, a lightweight data-interchange format.")]),_v(" "),_c('li',[_c('strong',[_v("JAR")]),_v(": Java Archive, a package file format typically used to aggregate many Java class files and associated metadata and resources (text, images, etc.) into one file to distribute application software or libraries on the Java platform.")]),_v(" "),_c('li',[_c('strong',[_v("Class details")]),_v(": The grades, attendance and class participation details of a student in Class Manager.")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Sun, 5 Nov 2023, 10:54:40 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Sun, 5 Nov 2023, 21:31:12 GMT+8]")])])])}
 }];
   
