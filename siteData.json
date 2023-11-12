@@ -56,6 +56,7 @@
         "load-feature": "Load feature",
         "config-feature": "Config feature",
         "class-details-feature": "Class Details feature",
+        "data-visualisation-feature": "Data visualisation feature",
         "present-feature": "Present feature",
         "view-feature": "View feature",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
