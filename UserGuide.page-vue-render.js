@@ -101,7 +101,7 @@ with(this){return _c('h1',{attrs:{"id":"features"}},[_v("Features"),_c('a',{stat
 with(this){return _c('h2',{attrs:{"id":"class-number"}},[_v("Class Number"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#class-number","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("Class Number refers to the tutorial class number of a particular course.")]),_v(" "),_c('li',[_v("Class Number is case-sensitive and must begin with a capital \"T\", followed by any number of characters. Class Numbers must not be blank.")]),_v(" "),_c('li',[_v("Class Number is stored verbatim based on your input, with the case being preserved.")]),_v(" "),_c('li',[_v("Here are some valid examples of Class Numbers:\n"),_c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("T11")])]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("TG11")])]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("TG10B")])])])])])}
+with(this){return _c('ul',[_c('li',[_v("Class Number is case-sensitive and must begin with a capital \"T\", followed by any number of characters. Class Numbers must not be blank.")]),_v(" "),_c('li',[_v("Class Number is stored verbatim based on your input, with the case being preserved.")]),_v(" "),_c('li',[_v("Here are some valid examples of Class Numbers:\n"),_c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("T11")])]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("TG11")])]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("TG10B")])])])])])}
 },function anonymous(
 ) {
 with(this){return _c('h2',{attrs:{"id":"student-number"}},[_v("Student Number"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#student-number","onclick":"event.stopPropagation()"}})])}
@@ -653,6 +653,6 @@ with(this){return _c('ul',[_c('li',[_c('strong',[_v("cd")]),_v(": Change directo
 with(this){return _c('p',[_c('a',{attrs:{"href":"#table-of-contents"}},[_v("Back to Table of Contents")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Sun, 12 Nov 2023, 19:17:28 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Sun, 12 Nov 2023, 19:28:30 GMT+8]")])])])}
 }];
   
