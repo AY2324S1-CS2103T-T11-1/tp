@@ -81,6 +81,7 @@
         "tag-a-student": "Tag a student",
         "mark-a-student-as-present": "Mark a student as present",
         "mark-all-displayed-students-as-present": "Mark all displayed students as present",
+        "randomly-select-students": "Randomly select students",
         "view-a-student": "View a student",
         "load-data-files": "Load data files",
         "undo-redo-commands": "Undo/redo commands",
