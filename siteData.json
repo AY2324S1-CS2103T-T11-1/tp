@@ -161,7 +161,7 @@
         "student-list-commands": "Student list commands",
         "add-a-student-add": "Add a student : add",
         "comment-on-a-student-comment": "Comment on a student : comment",
-        "delete-one-student-delete": "Delete one student : delete",
+        "delete-a-student-delete": "Delete a student : delete",
         "delete-all-students-clear": "Delete all students : clear",
         "edit-a-student-s-details-edit": "Edit a student's details : edit",
         "list-all-students-list": "List all students : list",
