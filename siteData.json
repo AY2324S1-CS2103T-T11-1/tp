@@ -86,8 +86,8 @@
         "load-data-files": "Load data files",
         "undo-redo-commands": "Undo/redo commands",
         "history": "History",
-        "launch-with-erroneous-data-files": "Launch with erroneous data files",
-        "toggle-color-theme": "Toggle color theme",
+        "launching-with-erroneous-data-files": "Launching with erroneous data files",
+        "toggle-colour-theme": "Toggle colour theme",
         "exit-the-app": "Exit the app",
         "appendix-planned-enhancements": "Appendix: Planned Enhancements"
       },

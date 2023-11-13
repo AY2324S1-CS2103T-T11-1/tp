@@ -122,10 +122,10 @@ with(this){return _c('h2',{attrs:{"id":"editing-the-data-file"}},[_v("Editing th
 with(this){return _c('p',[_c('strong',[_v("Class Manager 2023's")]),_v(" data is saved as a JSON file at "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("[JAR file location]/data/classmanager.json")]),_v(". Advanced users are welcome to update data directly by editing that data file. You can refer to a valid sample of the JSON file in the image below.")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("The size of the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("attendanceTracker")]),_v(" and "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("classParticipationTracker")]),_v(" arrays must match the configured tutorial count. Similarly, the size of the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("assignmentTracker")]),_v(" array must match the configured assignment count. "),_c('strong',[_v("Class Manager 2023")]),_v(" is configured to have 13 tutorials and 6 assignments by default. Before loading the edited data file, you can configure "),_c('strong',[_v("Class Manager 2023")]),_v(" using the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("config")]),_v(" command.")])}
+with(this){return _c('p',[_c('img',{attrs:{"alt":"sample_contents","src":"/tp/images/sample-contents.png","width":"750"}}),_v(" "),_c('br'),_c('br')])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('img',{attrs:{"alt":"sample_contents","src":"/tp/images/sample-contents.png","width":"750"}}),_v(" "),_c('br'),_c('br')])}
+with(this){return _c('p',[_v("The size of the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("attendanceTracker")]),_v(" and "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("classParticipationTracker")]),_v(" arrays must match the configured tutorial count. Similarly, the size of the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("assignmentTracker")]),_v(" array must match the configured assignment count. "),_c('strong',[_v("Class Manager 2023")]),_v(" is configured to have 13 tutorials and 6 assignments by default. Before loading the edited data file, you can configure "),_c('strong',[_v("Class Manager 2023")]),_v(" using the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("config")]),_v(" command.")])}
 },function anonymous(
 ) {
 with(this){return _c('h1',{attrs:{"id":"commands"}},[_v("Commands"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#commands","onclick":"event.stopPropagation()"}})])}
@@ -668,6 +668,6 @@ with(this){return _c('ul',[_c('li',[_c('strong',[_v("cd")]),_v(": Change directo
 with(this){return _c('p',[_c('a',{attrs:{"href":"#table-of-contents"}},[_v("Back to Table of Contents")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Tue, 14 Nov 2023, 0:39:39 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Tue, 14 Nov 2023, 0:49:25 GMT+8]")])])])}
 }];
   
