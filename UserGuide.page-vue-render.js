@@ -446,10 +446,10 @@ with(this){return _c('ul',[_c('li',[_c('a',{attrs:{"href":"#student-number"}},[_
 with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("edit A0245234A p/91234567 e/johndoe@example.com")]),_v(" Edits the phone number and "),_c('a',{attrs:{"href":"#glossary"}},[_v("email address")]),_v(" of the student with "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("STUDENT_NUMBER")]),_v(" A0245234A to be "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("91234567")]),_v(" and "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("johndoe@example.com")]),_v(" respectively.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("edit A0223344A n/Betsy Crower")]),_v(" Edits the name of the student with "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("STUDENT_NUMBER")]),_v(" A0223344A to be "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Betsy Crower")]),_v(".")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("The following image shows a successful execution of the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("edit A0249112A n/Bob")]),_v(" command.")])}
+with(this){return _c('p',[_v("The following image shows a successful execution of the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("edit")]),_v(" command.")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('img',{attrs:{"src":"/tp/images/edit-success.png","alt":"result for `edit A0249112A n/Bob","width":"700"}}),_v(" "),_c('br')])}
+with(this){return _c('p',[_c('img',{attrs:{"src":"/tp/images/edit-success.png","alt":"result for `edit A0245234A n/Bob","width":"700"}}),_v(" "),_c('br')])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('a',{attrs:{"href":"#table-of-contents"}},[_v("Back to Table of Contents")])])}
@@ -719,6 +719,6 @@ with(this){return _c('ul',[_c('li',[_c('strong',[_v("cd")]),_v(": Change directo
 with(this){return _c('p',[_c('a',{attrs:{"href":"#table-of-contents"}},[_v("Back to Table of Contents")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Tue, 14 Nov 2023, 11:20:35 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Tue, 14 Nov 2023, 11:27:23 GMT+8]")])])])}
 }];
   
